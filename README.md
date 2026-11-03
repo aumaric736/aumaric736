@@ -1,24 +1,22 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:090A1A,45:142B55,100:7B2FF7&height=220&section=header&text=JUNXI%20.exe&fontSize=58&fontColor=00F5FF&animation=twinkling&fontAlignY=38&desc=Computer%20Science%20%7C%20Universit%C3%A9%20de%20Montr%C3%A9al&descAlignY=60&descSize=16" alt="Animated cyberpunk header" />
+<!-- CYBERPUNK ANIMATED HERO -->
+<img src="https://capsule-render.vercel.app/api?type=venom&height=260&color=0:050816,50:102A56,100:7F2BFF&text=JUNXI%20.exe&fontColor=00F5FF&fontSize=64&fontAlignY=38&desc=UNIVERSIT%C3%89%20DE%20MONTR%C3%89AL%20%7C%20COMPUTER%20SCIENCE&descSize=16&descAlignY=58&animation=twinkling&stroke=00F5FF&strokeWidth=1" width="100%" alt="Animated cyberpunk neon header" />
 
-<a href="https://github.com/aumaric736">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2600&pause=700&color=00F5FF&center=true&vCenter=true&repeat=true&width=700&height=55&lines=%3E+Hello%2C+World!+%F0%9F%91%BE;%3E+Initializing+creative+mode...;%3E+Turning+coffee+into+code+%E2%98%95;%3E+Building+the+future%2C+one+commit+at+a+time" alt="Animated terminal introduction" />
-</a>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2200&pause=650&color=00F5FF&center=true&vCenter=true&repeat=true&width=760&height=60&lines=%3E+SYSTEM+ONLINE+%E2%9C%93;%3E+WELCOME+TO+JUNXI%27S+DEV+SPACE;%3E+CODE.+CREATE.+REPEAT.+%F0%9F%90%88;%3E+LOADING+FUTURE...+100%25" alt="Animated neon terminal text" />
 
-<img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="180" alt="Cute cat typing on a laptop" />
+<img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="150" alt="Cute coding cat animation" />
 
 <p>
-  <img src="https://img.shields.io/badge/STATUS-ONLINE-00F5FF?style=for-the-badge&logo=online&logoColor=white&labelColor=101426" alt="Online status" />
-  <img src="https://img.shields.io/badge/ROLE-CS%20STUDENT-9D4EDD?style=for-the-badge&logo=42&logoColor=white&labelColor=101426" alt="Computer science student" />
-  <img src="https://img.shields.io/badge/BASE-MONTREAL-00B4D8?style=for-the-badge&logo=googlemaps&logoColor=white&labelColor=101426" alt="Montreal" />
+  <img src="https://img.shields.io/badge/STATUS-ONLINE-00F5FF?style=for-the-badge&labelColor=080D1D" alt="Online" />
+  <img src="https://img.shields.io/badge/UDEM-COMPUTER%20SCIENCE-8A5CFF?style=for-the-badge&labelColor=080D1D" alt="UdeM Computer Science" />
 </p>
 
 </div>
 
 ---
 
-## <img src="https://img.shields.io/badge/01-IDENTITY-00F5FF?style=flat-square&labelColor=101426" />  About Me
+## <img src="https://img.shields.io/badge/01-IDENTITY-00F5FF?style=flat-square&labelColor=101426" /> About Me
 
 ```yaml
 name: Junxi
@@ -39,7 +37,7 @@ I enjoy exploring how technology works, understanding systems beneath the surfac
 
 ---
 
-## <img src="https://img.shields.io/badge/02-ARSENAL-9D4EDD?style=flat-square&labelColor=101426" />  Tech Arsenal
+## <img src="https://img.shields.io/badge/02-ARSENAL-9D4EDD?style=flat-square&labelColor=101426" /> Tech Arsenal
 
 <div align="center">
 
@@ -49,7 +47,7 @@ I enjoy exploring how technology works, understanding systems beneath the surfac
 
 ---
 
-## <img src="https://img.shields.io/badge/03-SYSTEM%20STATS-00F5FF?style=flat-square&labelColor=101426" />  GitHub Analytics
+## <img src="https://img.shields.io/badge/03-SYSTEM%20STATS-00F5FF?style=flat-square&labelColor=101426" /> GitHub Analytics
 
 <div align="center">
 
@@ -62,7 +60,7 @@ I enjoy exploring how technology works, understanding systems beneath the surfac
 
 ---
 
-## <img src="https://img.shields.io/badge/04-TRANSMISSION-FF4D9D?style=flat-square&labelColor=101426" />  Find Me
+## <img src="https://img.shields.io/badge/04-TRANSMISSION-FF4D9D?style=flat-square&labelColor=101426" /> Find Me
 
 <div align="center">
 
@@ -79,4 +77,4 @@ I enjoy exploring how technology works, understanding systems beneath the surfac
 
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:7B2FF7,55:142B55,100:090A1A&height=110&section=footer&animation=twinkling" alt="Animated footer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7B2FF7,55:142B55,100:090A1A&height=110&section=footer&animation=twinkling" width="100%" alt="Animated neon footer" />
