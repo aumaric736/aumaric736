@@ -1,11 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="720" viewBox="0 0 1200 720">
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#070B18"/><stop offset=".55" stop-color="#111B36"/><stop offset="1" stop-color="#251344"/></linearGradient>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#070B18"><animate attributeName="stop-color" values="#070B18;#10132B;#070B18" dur="12s" repeatCount="indefinite"/></stop><stop offset=".55" stop-color="#111B36"><animate attributeName="stop-color" values="#111B36;#1A1740;#111B36" dur="12s" repeatCount="indefinite"/></stop><stop offset="1" stop-color="#251344"/></linearGradient>
   <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#123C58"/><stop offset="1" stop-color="#10243B"/></linearGradient>
   <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#35205D"/><stop offset="1" stop-color="#1C183B"/></linearGradient>
   <linearGradient id="pink" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#512443"/><stop offset="1" stop-color="#25182F"/></linearGradient>
-  <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#53E9FF" stop-opacity="0"/><stop offset=".5" stop-color="#53E9FF" stop-opacity=".65"/><stop offset="1" stop-color="#53E9FF" stop-opacity="0"/></linearGradient>
+  <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#53E9FF" stop-opacity="0"/><stop offset=".5" stop-color="#53E9FF" stop-opacity=".8"/><stop offset="1" stop-color="#53E9FF" stop-opacity="0"/></linearGradient>
+  <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#53E9FF" stop-opacity="0"/><stop offset=".5" stop-color="#53E9FF" stop-opacity=".22"/><stop offset="1" stop-color="#53E9FF" stop-opacity="0"/></linearGradient>
   <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="softGlow"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   <style>
     .mono{font-family:'Courier New',monospace;letter-spacing:2px}
     .title{font-family:Arial,sans-serif;font-weight:700;fill:#F1F7FF}
@@ -16,27 +18,51 @@
   </style>
 </defs>
 <rect width="1200" height="720" rx="28" fill="url(#bg)"/>
+<!-- ambient moving light wash -->
+<path d="M-180 0H260L-80 720H-520Z" fill="url(#beam)" opacity=".35">
+  <animateTransform attributeName="transform" type="translate" values="-250 0;1500 0;-250 0" dur="18s" repeatCount="indefinite"/>
+</path>
 <rect x="18" y="18" width="1164" height="684" rx="22" fill="none" stroke="#35DFFF" stroke-opacity=".65" stroke-width="2">
-  <animate attributeName="stroke-opacity" values=".35;.9;.35" dur="4s" repeatCount="indefinite"/>
+  <animate attributeName="stroke-opacity" values=".25;.95;.25" dur="4s" repeatCount="indefinite"/>
+  <animate attributeName="stroke-width" values="1.5;2.8;1.5" dur="4s" repeatCount="indefinite"/>
 </rect>
+<!-- subtle HUD corner marks -->
+<g fill="none" stroke="#53E9FF" stroke-width="3" opacity=".75">
+  <path d="M42 82V42H82 M1118 42H1158V82 M42 638V678H82 M1118 678H1158V638">
+    <animate attributeName="opacity" values=".35;1;.35" dur="3.5s" repeatCount="indefinite"/>
+  </path>
+</g>
+<!-- floating interface particles -->
+<g fill="#6CEBFF" filter="url(#softGlow)">
+  <circle cx="330" cy="118" r="2"><animate attributeName="cy" values="118;103;118" dur="4s" repeatCount="indefinite"/><animate attributeName="opacity" values=".2;1;.2" dur="3s" repeatCount="indefinite"/></circle>
+  <circle cx="520" cy="78" r="2.5"><animate attributeName="cy" values="78;91;78" dur="5s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;.25;1" dur="2.8s" repeatCount="indefinite"/></circle>
+  <circle cx="870" cy="132" r="2"><animate attributeName="cy" values="132;115;132" dur="4.6s" repeatCount="indefinite"/><animate attributeName="opacity" values=".15;.9;.15" dur="3.2s" repeatCount="indefinite"/></circle>
+  <circle cx="1130" cy="180" r="2"><animate attributeName="cy" values="180;164;180" dur="5.2s" repeatCount="indefinite"/><animate attributeName="opacity" values=".2;1;.2" dur="3.7s" repeatCount="indefinite"/></circle>
+</g>
 <path d="M40 95H1160" stroke="#42DDF8" stroke-opacity=".35"/>
+<path d="M40 95H1160" stroke="#53E9FF" stroke-width="1.4" stroke-dasharray="90 1060" opacity=".9">
+  <animate attributeName="stroke-dashoffset" values="1150;0" dur="7s" repeatCount="indefinite"/>
+</path>
 <text x="58" y="62" class="mono cyan" font-size="18">PERSONAL DEVELOPER INTERFACE / 001</text>
-<text x="58" y="151" class="title" font-size="66">KEVIN<tspan class="cyan">.exe</tspan></text>
+<text x="58" y="151" class="title" font-size="66" filter="url(#softGlow)">KEVIN<tspan class="cyan">.exe</tspan></text>
 <text x="62" y="184" class="mono muted" font-size="17">UNIVERSITÉ DE MONTRÉAL · UNDERGRADUATE · COMPUTER SCIENCE</text>
-<rect x="950" y="48" width="190" height="42" rx="21" fill="#103D3B" stroke="#39E6BD"/>
+<rect x="950" y="48" width="190" height="42" rx="21" fill="#103D3B" stroke="#39E6BD">
+  <animate attributeName="stroke-opacity" values=".45;1;.45" dur="2.8s" repeatCount="indefinite"/>
+</rect>
 <circle cx="975" cy="69" r="6" fill="#39E6BD" filter="url(#glow)">
-  <animate attributeName="opacity" values="1;.25;1" dur="1.8s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="1;.18;1" dur="1.8s" repeatCount="indefinite"/>
   <animate attributeName="r" values="5;8;5" dur="1.8s" repeatCount="indefinite"/>
 </circle>
 <text x="992" y="75" class="mono" fill="#7AF5D7" font-size="15">SYSTEM ONLINE</text>
 <!-- animated scan light -->
 <rect x="35" y="205" width="1130" height="3" rx="2" fill="url(#scan)" opacity=".85">
   <animate attributeName="y" values="205;660;205" dur="8s" repeatCount="indefinite"/>
-  <animate attributeName="opacity" values=".15;.8;.15" dur="8s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values=".08;.9;.08" dur="8s" repeatCount="indefinite"/>
 </rect>
 <!-- profile -->
 <rect x="48" y="220" width="535" height="210" rx="18" fill="url(#cyan)" stroke="#3BDCF6" stroke-width="2">
-  <animate attributeName="stroke-opacity" values=".55;1;.55" dur="3.8s" repeatCount="indefinite"/>
+  <animate attributeName="stroke-opacity" values=".35;1;.35" dur="3.8s" repeatCount="indefinite"/>
+  <animate attributeName="stroke-width" values="1.5;2.8;1.5" dur="3.8s" repeatCount="indefinite"/>
 </rect>
 <rect x="48" y="220" width="535" height="48" rx="18" fill="#1B5970" opacity=".72"/>
 <text x="76" y="252" class="mono cyan" font-size="18">01 / USER PROFILE</text>
@@ -45,7 +71,8 @@
 <text x="78" y="389" class="muted" font-size="18">Undergraduate student · Curious about tech.</text>
 <!-- mascot -->
 <rect x="615" y="220" width="537" height="210" rx="18" fill="url(#pink)" stroke="#FF79C6" stroke-width="2">
-  <animate attributeName="stroke-opacity" values=".55;1;.55" dur="4.5s" repeatCount="indefinite"/>
+  <animate attributeName="stroke-opacity" values=".35;1;.35" dur="4.5s" repeatCount="indefinite"/>
+  <animate attributeName="stroke-width" values="1.5;2.7;1.5" dur="4.5s" repeatCount="indefinite"/>
 </rect>
 <rect x="615" y="220" width="537" height="48" rx="18" fill="#78375F" opacity=".65"/>
 <text x="643" y="252" class="mono pinktxt" font-size="18">02 / C.A.T. MASCOT</text>
@@ -56,22 +83,29 @@
 <rect x="48" y="458" width="345" height="190" rx="18" fill="#102E2D" stroke="#43E6BD" stroke-width="2"/>
 <rect x="48" y="458" width="345" height="46" rx="18" fill="#17534B" opacity=".8"/>
 <text x="74" y="488" class="mono" fill="#72F4D1" font-size="17">03 / SYSTEM STATUS</text>
-<circle cx="84" cy="544" r="7" fill="#43E6BD"><animate attributeName="opacity" values="1;.35;1" dur="2s" repeatCount="indefinite"/></circle><text x="106" y="551" class="title" font-size="20">CORE : ONLINE</text>
-<circle cx="84" cy="584" r="7" fill="#B99AFF"><animate attributeName="opacity" values=".4;1;.4" dur="2.6s" repeatCount="indefinite"/></circle><text x="106" y="591" class="title" font-size="20">LEARNING : ACTIVE</text>
-<circle cx="84" cy="624" r="7" fill="#FF8ACD"><animate attributeName="opacity" values="1;.4;1" dur="3s" repeatCount="indefinite"/></circle><text x="106" y="631" class="title" font-size="20">COFFEE : REQUIRED</text>
+<circle cx="84" cy="544" r="7" fill="#43E6BD" filter="url(#softGlow)"><animate attributeName="opacity" values="1;.25;1" dur="2s" repeatCount="indefinite"/><animate attributeName="r" values="6;9;6" dur="2s" repeatCount="indefinite"/></circle><text x="106" y="551" class="title" font-size="20">CORE : ONLINE</text>
+<circle cx="84" cy="584" r="7" fill="#B99AFF" filter="url(#softGlow)"><animate attributeName="opacity" values=".3;1;.3" dur="2.6s" repeatCount="indefinite"/></circle><text x="106" y="591" class="title" font-size="20">LEARNING : ACTIVE</text>
+<circle cx="84" cy="624" r="7" fill="#FF8ACD" filter="url(#softGlow)"><animate attributeName="opacity" values="1;.3;1" dur="3s" repeatCount="indefinite"/></circle><text x="106" y="631" class="title" font-size="20">COFFEE : REQUIRED</text>
 <!-- tech -->
 <rect x="425" y="458" width="727" height="190" rx="18" fill="url(#violet)" stroke="#A98BFF" stroke-width="2">
-  <animate attributeName="stroke-opacity" values=".5;1;.5" dur="4s" repeatCount="indefinite"/>
+  <animate attributeName="stroke-opacity" values=".35;1;.35" dur="4s" repeatCount="indefinite"/>
+  <animate attributeName="stroke-width" values="1.5;2.8;1.5" dur="4s" repeatCount="indefinite"/>
 </rect>
 <rect x="425" y="458" width="727" height="46" rx="18" fill="#49327A" opacity=".8"/>
 <text x="451" y="488" class="mono violettxt" font-size="17">04 / TECH MODULES</text>
+<!-- softly pulsing technology chips -->
 <g class="title" font-size="25" text-anchor="middle">
-<rect x="460" y="535" width="125" height="62" rx="12" fill="#152B48" stroke="#3BDCF6"/><text x="522" y="574" class="cyan">PYTHON</text>
-<rect x="605" y="535" width="125" height="62" rx="12" fill="#28214C" stroke="#A98BFF"/><text x="667" y="574" class="violettxt">JAVA</text>
-<rect x="750" y="535" width="125" height="62" rx="12" fill="#153B40" stroke="#43E6BD"/><text x="812" y="574" fill="#72F4D1">C / C++</text>
-<rect x="895" y="535" width="125" height="62" rx="12" fill="#49233D" stroke="#FF79C6"/><text x="957" y="574" class="pinktxt">JS / WEB</text>
+  <g><rect x="460" y="535" width="125" height="62" rx="12" fill="#152B48" stroke="#3BDCF6"/><text x="522" y="574" class="cyan">PYTHON</text><animateTransform attributeName="transform" type="translate" values="0 0;0 -4;0 0" dur="4s" repeatCount="indefinite"/></g>
+  <g><rect x="605" y="535" width="125" height="62" rx="12" fill="#28214C" stroke="#A98BFF"/><text x="667" y="574" class="violettxt">JAVA</text><animateTransform attributeName="transform" type="translate" values="0 0;0 -4;0 0" begin=".5s" dur="4s" repeatCount="indefinite"/></g>
+  <g><rect x="750" y="535" width="125" height="62" rx="12" fill="#153B40" stroke="#43E6BD"/><text x="812" y="574" fill="#72F4D1">C / C++</text><animateTransform attributeName="transform" type="translate" values="0 0;0 -4;0 0" begin="1s" dur="4s" repeatCount="indefinite"/></g>
+  <g><rect x="895" y="535" width="125" height="62" rx="12" fill="#49233D" stroke="#FF79C6"/><text x="957" y="574" class="pinktxt">JS / WEB</text><animateTransform attributeName="transform" type="translate" values="0 0;0 -4;0 0" begin="1.5s" dur="4s" repeatCount="indefinite"/></g>
 </g>
 <text x="460" y="622" class="muted" font-size="17">GIT · GITHUB · VSCODE · LINUX</text>
+<!-- animated data pulse travelling along footer track -->
+<path d="M60 664H1140" fill="none" stroke="#294568" stroke-width="2"/>
+<path d="M60 664H1140" fill="none" stroke="#53E9FF" stroke-width="2.5" stroke-dasharray="70 1010" filter="url(#softGlow)">
+  <animate attributeName="stroke-dashoffset" values="1080;0" dur="5s" repeatCount="indefinite"/>
+</path>
 <text x="60" y="682" class="mono muted" font-size="13">KEVIN.exe // KEEP BUILDING · STAY CURIOUS</text>
 <text x="1140" y="682" class="mono cyan" font-size="13" text-anchor="end">BUILD 2026.11</text>
 </svg>
