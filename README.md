@@ -1,80 +1,91 @@
 <div align="center">
 
-<!-- CYBERPUNK ANIMATED HERO -->
-<img src="https://capsule-render.vercel.app/api?type=venom&height=260&color=0:050816,50:102A56,100:7F2BFF&text=JUNXI%20.exe&fontColor=00F5FF&fontSize=64&fontAlignY=38&desc=UNIVERSIT%C3%89%20DE%20MONTR%C3%89AL%20%7C%20COMPUTER%20SCIENCE&descSize=16&descAlignY=58&animation=twinkling&stroke=00F5FF&strokeWidth=1" width="100%" alt="Animated cyberpunk neon header" />
+<!-- FULL-WIDTH NEON + CUTE HERO -->
+<img src="https://capsule-render.vercel.app/api?type=rect&height=320&color=0:080B1F,25:102A56,55:31206B,80:8A3FFC,100:00D9FF&text=JUNXI%20.exe&fontSize=76&fontColor=FFFFFF&fontAlignY=42&desc=｡ﾟ•┈୨♡୧┈•ﾟ｡%20WELCOME%20TO%20MY%20DIGITAL%20UNIVERSE%20｡ﾟ•┈୨♡୧┈•ﾟ｡&descSize=17&descAlignY=65&animation=twinkling" width="100%" alt="Full width animated neon cyber cute banner" />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2200&pause=650&color=00F5FF&center=true&vCenter=true&repeat=true&width=760&height=60&lines=%3E+SYSTEM+ONLINE+%E2%9C%93;%3E+WELCOME+TO+JUNXI%27S+DEV+SPACE;%3E+CODE.+CREATE.+REPEAT.+%F0%9F%90%88;%3E+LOADING+FUTURE...+100%25" alt="Animated neon terminal text" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=23&duration=2200&pause=600&color=00F5FF&center=true&vCenter=true&repeat=true&width=850&height=65&lines=%3E+SYSTEM+ONLINE+%E2%9C%A8;%3E+HELLO%2C+WORLD!+%F0%9F%91%BE;%3E+WELCOME+TO+JUNXI%27S+DEV+UNIVERSE;%3E+CODE+WITH+LOVE+%E2%99%A1+AND+COFFEE+%E2%98%95" width="100%" alt="Animated terminal typing line" />
 
-<img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="150" alt="Cute coding cat animation" />
+<img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="230" alt="Cute animated coding cat" />
 
 <p>
-  <img src="https://img.shields.io/badge/STATUS-ONLINE-00F5FF?style=for-the-badge&labelColor=080D1D" alt="Online" />
-  <img src="https://img.shields.io/badge/UDEM-COMPUTER%20SCIENCE-8A5CFF?style=for-the-badge&labelColor=080D1D" alt="UdeM Computer Science" />
+  <img src="https://img.shields.io/badge/♡_ONLINE-00F5FF?style=for-the-badge&labelColor=101426" alt="Online" />
+  <img src="https://img.shields.io/badge/UNIVERSITÉ_DE_MONTRÉAL-8B5CF6?style=for-the-badge&labelColor=101426" alt="Université de Montréal" />
+  <img src="https://img.shields.io/badge/COMPUTER_SCIENCE-FF6EC7?style=for-the-badge&labelColor=101426" alt="Computer Science" />
 </p>
 
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=3000&pause=1000&color=FF8EDB&center=true&vCenter=true&repeat=true&width=650&height=35&lines=%E2%9C%A7+%E3%80%8C+loading+dreams...+%E3%80%8D+%E2%9C%A7;%E2%9C%A7+%E3%80%8C+debugging+with+a+smile+%E3%80%8D+%E2%9C%A7" alt="Cute animated subtitle" />
+
 </div>
 
 ---
 
-## <img src="https://img.shields.io/badge/01-IDENTITY-00F5FF?style=flat-square&labelColor=101426" /> About Me
+<div align="center">
 
-```yaml
-name: Junxi
-university: Université de Montréal
-program: Computer Science
-role: Undergraduate Student
-mindset: Curious / Creative / Always Learning
+## ✦ ABOUT THIS HUMAN ✦
+
+<img src="https://media.giphy.com/media/MDJ9IbxxvDUQM/giphy.gif" width="140" align="right" alt="Cute pixel cat animation" />
+
+</div>
+
+```js
+const junxi = {
+  university: "Université de Montréal",
+  major: "Computer Science",
+  role: "Undergraduate Student",
+  interests: ["Software", "Technology", "Computer Systems"],
+  motto: "Stay curious. Keep building. ♡"
+};
 ```
 
-Hey! I'm **Junxi**, a Computer Science undergraduate at **Université de Montréal (UdeM)**.
+Hi! I'm **Junxi**, a Computer Science undergraduate student at **Université de Montréal (UdeM)**.
 
-I enjoy exploring how technology works, understanding systems beneath the surface, and building things with code. I'm always curious about new ideas and love learning through hands-on projects.
+I love exploring technology, understanding how things work behind the scenes, and turning ideas into code. This is my little corner of the internet — part developer workspace, part digital playground. ✨
 
-- 🎓 Studying Computer Science at **UdeM**
+- 🎓 Studying Computer Science at **Université de Montréal**
 - 💻 Interested in software development and computer systems
-- 🔭 Exploring technologies and building my developer skill set
-- 🌱 Learning something new, one line of code at a time
+- 🌱 Always learning and experimenting with new technologies
+- 🐱 Powered by curiosity, coffee, and cute cats
 
 ---
 
-## <img src="https://img.shields.io/badge/02-ARSENAL-9D4EDD?style=flat-square&labelColor=101426" /> Tech Arsenal
-
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,java,c,cpp,js,html,css,git,github,vscode,linux&theme=dark&perline=6" alt="Programming languages and developer tools" />
+<img src="https://capsule-render.vercel.app/api?type=rect&height=70&color=0:101426,50:31206B,100:00D9FF&text=%E2%9C%A6%20MY%20TECH%20UNIVERSE%20%E2%9C%A6&fontSize=25&fontColor=FFFFFF&animation=twinkling" width="100%" alt="Tech section banner" />
+
+<img src="https://skillicons.dev/icons?i=python,java,c,cpp,js,html,css,git,github,vscode,linux&theme=dark&perline=6" width="100%" alt="Programming languages and developer tools" />
 
 </div>
 
 ---
 
-## <img src="https://img.shields.io/badge/03-SYSTEM%20STATS-00F5FF?style=flat-square&labelColor=101426" /> GitHub Analytics
-
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=aumaric736&show_icons=true&hide_border=true&bg_color=0B1020&title_color=00F5FF&icon_color=9D4EDD&text_color=D6E2FF&rank_icon=github" alt="GitHub statistics" />
+<img src="https://capsule-render.vercel.app/api?type=rect&height=70&color=0:101426,50:31206B,100:FF6EC7&text=%E2%9C%A6%20GITHUB%20POWER%20STATION%20%E2%9C%A6&fontSize=24&fontColor=FFFFFF&animation=twinkling" width="100%" alt="GitHub statistics banner" />
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=aumaric736&show_icons=true&hide_border=true&bg_color=0B1020&title_color=00F5FF&icon_color=FF6EC7&text_color=D6E2FF&rank_icon=github" alt="GitHub statistics" />
 <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aumaric736&layout=compact&hide_border=true&bg_color=0B1020&title_color=00F5FF&text_color=D6E2FF" alt="Most used languages" />
 
-<img width="70%" src="https://streak-stats.demolab.com?user=aumaric736&hide_border=true&background=0B1020&ring=00F5FF&fire=FF4D9D&currStreakLabel=00F5FF&sideLabels=D6E2FF&dates=8B9BB4" alt="GitHub contribution streak" />
+<img width="85%" src="https://streak-stats.demolab.com?user=aumaric736&hide_border=true&background=0B1020&ring=00F5FF&fire=FF6EC7&currStreakLabel=00F5FF&sideLabels=D6E2FF&dates=8B9BB4" alt="GitHub contribution streak" />
 
 </div>
 
 ---
 
-## <img src="https://img.shields.io/badge/04-TRANSMISSION-FF4D9D?style=flat-square&labelColor=101426" /> Find Me
-
 <div align="center">
 
+<img src="https://capsule-render.vercel.app/api?type=rect&height=70&color=0:FF6EC7,50:31206B,100:00D9FF&text=%E2%9C%A6%20SAY%20HELLO%20%E2%9C%A6&fontSize=25&fontColor=FFFFFF&animation=twinkling" width="100%" alt="Connect banner" />
+
 <a href="https://github.com/aumaric736">
-  <img src="https://img.shields.io/badge/GitHub-aumaric736-0B1020?style=for-the-badge&logo=github&logoColor=00F5FF" alt="GitHub profile" />
+  <img src="https://img.shields.io/badge/GITHUB-aumaric736-101426?style=for-the-badge&logo=github&logoColor=00F5FF" alt="GitHub profile" />
 </a>
 
-<br/><br/>
+<br/>
 
-<img src="https://media.giphy.com/media/ICOgUNjpvO0PC/giphy.gif" width="110" alt="Cute animated waving cat" />
+<img src="https://media.giphy.com/media/ICOgUNjpvO0PC/giphy.gif" width="180" alt="Cute waving cat" />
 
-### Thanks for visiting my little corner of the internet! ✨
-<sub>Stay curious · Keep coding · Be kind to bugs 🐛</sub>
+### Thanks for visiting my digital universe! ♡
+<sub>Made with curiosity, code, and a little bit of cat magic ✨</sub>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,50:31206B,100:FF6EC7&height=160&section=footer&animation=twinkling" width="100%" alt="Full width animated neon footer" />
 
 </div>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7B2FF7,55:142B55,100:090A1A&height=110&section=footer&animation=twinkling" width="100%" alt="Animated neon footer" />
