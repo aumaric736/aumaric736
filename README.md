@@ -6,7 +6,6 @@
 
 </div>
 
-## ◈ 05 / GITHUB MONITORING
 
 <div align="center">
 
