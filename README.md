@@ -1,38 +1,36 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=180&color=0:070B1A,45:14264D,100:6536A8&text=JUNXI%20.exe&fontSize=62&fontColor=00F5FF&fontAlignY=42&desc=PERSONAL%20TECH%20CONTROL%20CENTER&descSize=16&descAlignY=70&animation=twinkling" width="100%" alt="Animated neon control center header" />
+<img src="https://capsule-render.vercel.app/api?type=rect&height=190&color=0:050816,35:101D3A,70:25205A,100:5B2A86&text=JUNXI%20.exe&fontSize=66&fontColor=00F0FF&fontAlignY=40&desc=◈%20PERSONAL%20CYBER%20DASHBOARD%20◈&descSize=17&descAlignY=70&animation=twinkling" width="100%" alt="Neon cyber dashboard header" />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&duration=2300&pause=700&color=00F5FF&center=true&vCenter=true&repeat=true&width=760&height=45&lines=%5BSYSTEM+ONLINE%5D;%5BWELCOME+TO+JUNXI%27S+DIGITAL+SPACE%5D;%5BLOADING+COFFEE...+DONE+%E2%98%95%5D;%5BCUTE+CAT+PROTOCOL+ACTIVATED+%F0%9F%90%88%5D" alt="Animated system status" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&duration=2200&pause=650&color=00F0FF&center=true&vCenter=true&repeat=true&width=780&height=45&lines=%3E+SYSTEM+ONLINE+%E2%9C%93;%3E+WELCOME+TO+JUNXI%27S+DEV+SPACE;%3E+CODE+%2F+CREATE+%2F+REPEAT;%3E+CAT+ASSISTANT+IS+READY+%F0%9F%90%88" alt="Animated terminal status" />
 
 </div>
 
 <table>
 <tr>
-<td width="58%" valign="top">
+<td width="58%" bgcolor="#0B1224" valign="middle">
 
-### ◈ 01 / USER PROFILE
+<img src="https://img.shields.io/badge/01-USER_PROFILE-00E5FF?style=for-the-badge&labelColor=14213D" alt="User profile panel" />
 
-```yaml
-name: Junxi
-university: Université de Montréal
-field: Computer Science
-status: Undergraduate Student
-location: Montréal
-mode: Always Learning
-```
+### JUNXI / Computer Science
 
-Computer Science student at **Université de Montréal (UdeM)**. Interested in software development, computer systems, and exploring how technology works behind the scenes.
+**Université de Montréal · UdeM**
+
+Computer Science undergraduate interested in software development, computer systems, and the technology behind the tools we use every day.
+
+<img src="https://img.shields.io/badge/LOCATION-MONTREAL-243B65?style=flat-square&logo=googlemaps&logoColor=00E5FF" alt="Location Montreal" />
+<img src="https://img.shields.io/badge/MODE-ALWAYS_LEARNING-40245F?style=flat-square&logo= 雪?logoColor=white" alt="Always learning" />
 
 </td>
-<td width="42%" align="center" valign="middle">
+<td width="42%" bgcolor="#11152B" align="center" valign="middle">
 
-### ◈ 02 / MASCOT
+<img src="https://img.shields.io/badge/02-CAT_ASSISTANT-FF79C6?style=for-the-badge&labelColor=321D45" alt="Cat assistant panel" />
 
-<img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="230" alt="Cute cat typing on a laptop" />
+<img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="220" alt="Cute cat typing on a laptop" />
 
-**C.A.T. — Coding Assistant Terminal**
+**C.A.T. / Coding Assistant Terminal**
 
-<sub>Current mission: turning coffee into code ☕</sub>
+<sub>Mission: turning coffee into code ☕</sub>
 
 </td>
 </tr>
@@ -40,62 +38,64 @@ Computer Science student at **Université de Montréal (UdeM)**. Interested in s
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="50%" bgcolor="#0B1224" valign="top">
 
-### ◈ 03 / SYSTEM STATUS
+<img src="https://img.shields.io/badge/03-SYSTEM_STATUS-00E5FF?style=for-the-badge&labelColor=14213D" alt="System status panel" />
 
-<img src="https://img.shields.io/badge/CORE-ONLINE-00F5FF?style=for-the-badge&labelColor=0B1020" alt="Core online" />
+<p>
+<img src="https://img.shields.io/badge/CORE-ONLINE-00D9A6?style=for-the-badge&labelColor=102B31" alt="Core online" />
+</p>
+<p>
+<img src="https://img.shields.io/badge/LEARNING-ACTIVE-9D7BFF?style=for-the-badge&labelColor=241B45" alt="Learning active" />
+</p>
+<p>
+<img src="https://img.shields.io/badge/COFFEE-REQUIRED-FF79C6?style=for-the-badge&labelColor=3B1D35" alt="Coffee required" />
+</p>
 
-<img src="https://img.shields.io/badge/LEARNING-ACTIVE-9D7BFF?style=for-the-badge&labelColor=0B1020" alt="Learning active" />
-
-<img src="https://img.shields.io/badge/COFFEE-REQUIRED-FF75C3?style=for-the-badge&labelColor=0B1020" alt="Coffee required" />
-
-<sub>System note: curiosity level remains high.</sub>
+<sub>All systems nominal. Curiosity: 100%.</sub>
 
 </td>
-<td width="50%" valign="top">
+<td width="50%" bgcolor="#11152B" valign="top">
 
-### ◈ 04 / TECH MODULES
+<img src="https://img.shields.io/badge/04-TECH_MODULES-BA9BFF?style=for-the-badge&labelColor=29204A" alt="Tech modules panel" />
 
 <img src="https://skillicons.dev/icons?i=python,java,c,cpp,js,html,css,git,github,vscode,linux&theme=dark&perline=4" width="100%" alt="Programming languages and tools" />
 
-<sub>Tools and technologies I'm exploring.</sub>
+<sub>Languages and tools in my developer toolkit.</sub>
 
 </td>
 </tr>
 </table>
 
----
-
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=65&color=0:101426,50:263C72,100:713DB5&text=%E2%97%88%20GITHUB%20MONITORING%20%E2%97%88&fontSize=23&fontColor=00F5FF&animation=twinkling" width="100%" alt="GitHub monitoring panel" />
+<img src="https://capsule-render.vercel.app/api?type=rect&height=76&color=0:101B35,50:25205A,100:4C286E&text=05%20%2F%20GITHUB%20MONITORING&fontSize=25&fontColor=00F0FF&animation=twinkling" width="100%" alt="GitHub monitoring header" />
 
 </div>
 
 <table>
 <tr>
-<td width="50%" align="center">
+<td width="50%" bgcolor="#0B1224" align="center">
 
-**05 / CONTRIBUTION DATA**
+<img src="https://img.shields.io/badge/CONTRIBUTION_DATA-00E5FF?style=for-the-badge&labelColor=14213D" alt="Contribution data" />
 
-<img src="https://github-readme-stats.vercel.app/api?username=aumaric736&show_icons=true&hide_border=true&bg_color=0B1020&title_color=00F5FF&icon_color=FF75C3&text_color=D6E2FF&rank_icon=github" width="100%" alt="GitHub statistics" />
+<img src="https://github-readme-stats.vercel.app/api?username=aumaric736&show_icons=true&hide_border=true&bg_color=0B1224&title_color=00F0FF&icon_color=FF79C6&text_color=DCE7FF&rank_icon=github" width="100%" alt="GitHub statistics" />
 
 </td>
-<td width="50%" align="center">
+<td width="50%" bgcolor="#11152B" align="center">
 
-**06 / LANGUAGE SCANNER**
+<img src="https://img.shields.io/badge/LANGUAGE_SCANNER-BA9BFF?style=for-the-badge&labelColor=29204A" alt="Language scanner" />
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aumaric736&layout=compact&hide_border=true&bg_color=0B1020&title_color=00F5FF&text_color=D6E2FF" width="100%" alt="Most used languages" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aumaric736&layout=compact&hide_border=true&bg_color=11152B&title_color=BA9BFF&text_color=DCE7FF" width="100%" alt="Most used languages" />
 
 </td>
 </tr>
 <tr>
-<td colspan="2" align="center">
+<td colspan="2" bgcolor="#0B1224" align="center">
 
-**07 / ACTIVITY TRACKER**
+<img src="https://img.shields.io/badge/ACTIVITY_TRACKER-FF79C6?style=for-the-badge&labelColor=321D45" alt="Activity tracker" />
 
-<img src="https://streak-stats.demolab.com?user=aumaric736&hide_border=true&background=0B1020&ring=00F5FF&fire=FF75C3&currStreakLabel=00F5FF&sideLabels=D6E2FF&dates=8B9BB4" width="85%" alt="GitHub contribution streak" />
+<img src="https://streak-stats.demolab.com?user=aumaric736&hide_border=true&background=0B1224&ring=00F0FF&fire=FF79C6&currStreakLabel=00F0FF&sideLabels=DCE7FF&dates=8B9BB4" width="85%" alt="GitHub contribution streak" />
 
 </td>
 </tr>
@@ -103,18 +103,18 @@ Computer Science student at **Université de Montréal (UdeM)**. Interested in s
 
 <table>
 <tr>
-<td width="50%" align="center" valign="middle">
+<td width="50%" bgcolor="#11152B" align="center" valign="middle">
 
-### ◈ 08 / CONNECTION
+<img src="https://img.shields.io/badge/06-CONNECTION-00E5FF?style=for-the-badge&labelColor=14213D" alt="Connection panel" />
 
 <a href="https://github.com/aumaric736">
-<img src="https://img.shields.io/badge/GITHUB-aumaric736-101426?style=for-the-badge&logo=github&logoColor=00F5FF" alt="GitHub profile" />
+<img src="https://img.shields.io/badge/GITHUB-aumaric736-17233F?style=for-the-badge&logo=github&logoColor=00F0FF" alt="GitHub profile" />
 </a>
 
 </td>
-<td width="50%" align="center" valign="middle">
+<td width="50%" bgcolor="#24172F" align="center" valign="middle">
 
-<img src="https://media.giphy.com/media/ICOgUNjpvO0PC/giphy.gif" width="130" alt="Cute waving cat" />
+<img src="https://media.giphy.com/media/ICOgUNjpvO0PC/giphy.gif" width="125" alt="Cute waving cat" />
 
 **Thanks for visiting! ♡**
 
@@ -126,8 +126,8 @@ Computer Science student at **Université de Montréal (UdeM)**. Interested in s
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,50:34206B,100:FF75C3&height=120&section=footer&animation=twinkling" width="100%" alt="Animated neon footer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,50:34206B,100:FF79C6&height=125&section=footer&animation=twinkling" width="100%" alt="Animated neon footer" />
 
-<sub>© JUNXI.exe — END OF TRANSMISSION</sub>
+<sub>JUNXI.exe · END OF TRANSMISSION</sub>
 
 </div>
