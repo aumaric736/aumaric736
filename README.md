@@ -24,7 +24,7 @@
 
 <br/>
 
-<sub>KEVIN.exe · END OF TRANSMISSION</sub>
+<sub>KEVIN.exe · The End</sub>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,50:34206B,100:FF79C6&height=115&section=footer&animation=twinkling" width="100%" alt="Animated neon footer" />
 
