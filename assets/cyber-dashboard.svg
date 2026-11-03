@@ -133,9 +133,9 @@
 <!-- natural four-legged cat walking inside the mascot panel -->
 <g>
   <animateTransform attributeName="transform" type="translate" values="1000 0;1040 0;1040 0;1000 0;1000 0" keyTimes="0;.43;.5;.93;1" dur="7s" repeatCount="indefinite"/>
-  <g transform="translate(53 360)">
-    <animateTransform attributeName="transform" type="scale" values="1 1;1 1;-1 1;-1 1;1 1" keyTimes="0;.43;.5;.93;1" calcMode="discrete" dur="7s" repeatCount="indefinite"/>
-    <g transform="translate(-53 -360)">
+  <g>
+    <animateTransform attributeName="transform" type="rotate" values="0 53 360;0 53 360;180 53 360;180 53 360;0 53 360" keyTimes="0;.43;.5;.93;1" calcMode="discrete" dur="7s" repeatCount="indefinite"/>
+    <g>
     <!-- curved tail -->
     <path d="M20 368 C8 365 5 351 13 344 C18 339 25 342 24 348" fill="none" stroke="#26384C" stroke-width="6" stroke-linecap="round">
       <animate attributeName="d" values="M20 368 C8 365 5 351 13 344 C18 339 25 342 24 348;M20 368 C5 371 1 359 8 351 C13 345 21 347 22 352;M20 368 C8 365 5 351 13 344 C18 339 25 342 24 348" dur="1.4s" repeatCount="indefinite"/>
