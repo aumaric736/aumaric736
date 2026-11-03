@@ -106,8 +106,8 @@
 </rect>
 <rect x="48" y="220" width="535" height="48" rx="18" fill="#1B5970" opacity=".72"/>
 <text x="76" y="252" class="mono cyan" font-size="18">01 / USER PROFILE</text>
-<text x="78" y="310" class="title" font-size="32">Computer Science Student</text>
-<text x="78" y="352" class="muted" font-size="21">Université de Montréal (UdeM)</text>
+<text x="78" y="310" class="title" font-size="32">Université de Montréal (UdeM)</text>
+<text x="78" y="352" class="muted" font-size="21">Computer Science Student</text>
 <text x="78" y="389" class="muted" font-size="18">Undergraduate student · Curious about tech.</text>
 <!-- floating holographic wireframe cube -->
 <g transform="translate(545 342)" fill="none" stroke="#65E9FF" stroke-width="1.8" filter="url(#softGlow)" opacity=".78">
