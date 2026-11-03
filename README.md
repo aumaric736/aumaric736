@@ -10,7 +10,7 @@
 
 <div align="center">
 
-### ◈ 05 / C.A.T. — CODING ASSISTANT TERMINAL
+### C.A.T. — CODING ASSISTANT TERMINAL
 
 <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="230" alt="Cute cat typing on a laptop" />
 
