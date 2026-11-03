@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/cyber-dashboard.svg" width="100%" alt="Kevin's animated neon cyber control panel dashboard" />
+<img src="./assets/cyber-dashboard.svg?v=6b241c49" width="100%" alt="Kevin's animated neon cyber control panel dashboard" />
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&duration=2200&pause=650&color=00F0FF&center=true&vCenter=true&repeat=true&width=780&height=42&lines=%3E+SYSTEM+ONLINE;%3E+WELCOME+TO+KEVIN%27S+DEV+SPACE;%3E+CODE+%2F+CREATE+%2F+REPEAT;%3E+CAT+ASSISTANT+IS+READY+%F0%9F%90%88" alt="Animated terminal status" />
 
